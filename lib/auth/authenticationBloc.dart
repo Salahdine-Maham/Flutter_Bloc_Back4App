@@ -7,6 +7,7 @@ import 'package:meta/meta.dart';
 class AuthenticationBloc extends Bloc<AuthenticationEvent,AuthenticationState>{
 
   final BaseRepository userRepository;
+
   AuthenticationBloc({@required this.userRepository}) : assert(userRepository != null);
 
   @override

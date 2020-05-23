@@ -219,6 +219,8 @@ class _LoginScreenState extends State<LoginScreen> {
         username: _username,
         email: _email,
         password: _password,
+        
+
       ));
     }
   }
